@@ -18,11 +18,12 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
 			$x = $p->getX();
 			$y = $p->gety();
                         $z = $p->getZ();
-				$sender->sendMessage("Your current coordinates are ".color::RED.$x"\n".color::RESET."X=".color::BlUE.$y"\n".color::RESET."Y=".color::GREEN.$z"\n".color::RESET."Z=");
+				$sender->sendMessage("Your current coordinates are ".color::RED.$x[$p->getx()]."\n".color::RESET."X=".color::BlUE.$y[$p->gety()]."\n".color::RESET."Y=".color::GREEN.$z[$p->getZ()]."\n".color::RESET."Z=");
 		}
 }
 public function Disable(){
 $this->getServer()->getLogger()->info("[getPos]v1.0 by BoyIsDino Disabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
 }
+
 }
