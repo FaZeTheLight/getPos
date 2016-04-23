@@ -11,7 +11,7 @@ public function onEnable(){
 $this->getServer()->getLogger()->info("[getPos]v1.0 by BoyIsDino Enabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
 }
-}
+
 public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         switch ($command){
             case 'getpos':
