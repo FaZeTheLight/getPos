@@ -2,6 +2,7 @@
 namespace getPos;
 
 use pocketmine\Player;
+use pocketmine\event\Listener;
 use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
