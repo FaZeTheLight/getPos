@@ -16,7 +16,8 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
         switch ($command){
             case 'getpos':
 			$x = $p->getX();
-                $z = $p->getZ();
+			$y = $p->gety();
+                        $z = $p->getZ();
 				$sender->sendMessage("Your current coordinates are ".color::RED.$x"\n".color::RESET."X=".color::BlUE.$y"\n".color::RESET."Y=".color::GREEN.$z"\n".color::RESET."Z=");
 		}
 }
