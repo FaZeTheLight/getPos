@@ -3,6 +3,8 @@ namespace getPos;
 
 use pocketmine\Player;
 use pocketmine\Server;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 use pocketmine\level\Position;
 use pocketmine\utils\TextFormat as color;
