@@ -21,7 +21,7 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
 			$x = $p->getX();
 			$y = $p->gety();
                         $z = $p->getZ();
-				$sender->sendMessage("Your current coordinates are ".color::RED.$x[$p->getx()]."\n".color::RESET."X=".color::BlUE.$y[$p->gety()]."\n".color::RESET."Y=".color::GREEN.$z[$p->getZ()]."\n".color::RESET."Z=");
+				$sender->sendMessage("Your current coordinates are; ".color::RED.$x[$p->getx()]."\n".color::RESET."X=".color::BlUE.$y[$p->gety()]."\n".color::RESET."Y=".color::GREEN.$z[$p->getZ()]."\n".color::RESET."Z=");
 		}
 }
 public function Disable(){
